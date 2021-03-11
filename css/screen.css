@@ -198,12 +198,102 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+body {
+  background-color: #cccccc;
+}
+
 label {
   display: block;
 }
 
 /* ===== LAYOUT STYLES ====== */
 
+#title-section {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1.375em;
+  background-color: #595959;
+  font-size: 2.292em;
+  color:#cccccc;
+  text-align: left;
+  font-family: 'Lobster', cursive;
+}
 
-/* ===== STATE STYLES ======= */
+#description-section {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1.6em; 
+  font-size: 1.6em; 
+  color: #595959;
+  text-align: center;
+  font-family: 'Redressed', cursive;
+}
 
+#form-input-section {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width: 90%;
+  color: #595959;
+}
+
+input {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  background-color: #a4a4a4;
+  border: none;
+  padding: 1.375em;
+  color:#595959;
+}
+
+#input-submit {
+  margin-top: 2.292em;
+  
+}
+
+#submit {
+  background-color: #595959;
+  color: #cccccc;
+  width:70%;
+  margin:auto;
+  font-size: 1.375em; 
+  font-weight: 600;
+  padding:1.0em
+}
+
+.form-label {
+  font-size: 1.375em; 
+  font-family: 'Akaya Telivigala', cursive;
+  margin-bottom: 0.495em 
+}
+
+#input-age-verification {
+  width: 17.7em; 
+  display: block;
+  box-sizing: border-box;
+  float: left;
+  margin-top: 1.375em; 
+}
+
+#age-label {
+  float: right;
+}
+
+#age-verification {
+  height: 1.375em;
+  width: 1.375em;
+  float: left;
+  border:none;
+  box-shadow: none;
+  background-color: #0c0c0c;
+}
+
+/*
+font-family: 'Akaya Telivigala', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Redressed', cursive;
+*/
